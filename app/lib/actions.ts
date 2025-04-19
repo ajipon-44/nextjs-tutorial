@@ -130,3 +130,5 @@ export async function updateInvoice(
   revalidatePath("/dashboard/invoices");
   redirect("/dashboard/invoices");
 }
+
+export async function deleteInvoice(id: string) {}
